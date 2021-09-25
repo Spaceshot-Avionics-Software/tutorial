@@ -36,8 +36,10 @@ cd <GitHub Repo Name>
 code
 ```
 
-The prompt `code` is nothing special. It just opens VSCode in your current folder. Once VSCode is opened and you see the correct file, you are good to move onto step 3.
+The prompt `code` is nothing special. It just opens VSCode in your current directory. Once VSCode is opened and you see the correct file, you are good to move onto step 3.
 
 ## Step 3: Hello, World!
+
+Click on the file called `hello.cpp`.
 
 
