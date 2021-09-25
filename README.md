@@ -24,11 +24,11 @@ Click the following link: https://git-scm.com/
 
 Git is a fantastic version control system that pairs nicely with GitHub. The difference between the two is that GitHub is a cloud based version control system, allowing everyone to work together on a project. Git lets you keep track of your **own** version history and allows you to pull and push up to GitHub through the command line.
 
-There is a command line interface (CLI) that comes with this download called Git that is a great tool to use as well. You don't have to use the Git CLI, but for windows users, it is so much better than Command Prompt (ew).
+There is a command line interface (CLI) that comes with this download called Git Bash that is a great tool to use as well. You don't have to use the Git CLI, but for windows users, it is so much better than Command Prompt (ew).
 
 
 ## Step 2: Clone the Repository
-To get started, you will be cloning this google classroom repository to your local computer! Run the following commands on Git or your preferred command line.
+To get started, you will be cloning this google classroom repository to your local computer! Run the following commands on Git Bash or your preferred command line.
 
 ```
 git clone <GitHub Repo URL>
