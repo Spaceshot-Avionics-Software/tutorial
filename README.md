@@ -26,6 +26,18 @@ Git is a fantastic version control system that pairs nicely with GitHub. The dif
 
 There is a command line interface (CLI) that comes with this download called Git Bash that is a great tool to use as well. You don't have to use the Git CLI, but for windows users, it is so much better than Command Prompt (ew).
 
+### MinGW (Windows Only)
+
+If you are on a windows computer and are just starting out, it's likely you don't have the necessary compilers and debuggers installed.
+
+To check, run
+```
+g++ --version
+```
+If g++ is already installed, you can move on. If not, take a look here: https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites
+
+Follow the directions for adding MinGW to your path environment and after the g++ command works, move onto step 2. 
+
 
 ## Step 2: Clone the Repository
 To get started, you will be cloning this google classroom repository to your local computer! Run the following commands on Git Bash or your preferred command line.
@@ -33,13 +45,25 @@ To get started, you will be cloning this google classroom repository to your loc
 ```
 git clone <GitHub Repo URL>
 cd <GitHub Repo Name>
-code
+code .
 ```
 
-The prompt `code` is nothing special. It just opens VSCode in your current directory. Once VSCode is opened and you see the correct file, you are good to move onto step 3.
+The prompt `code .` is nothing special. It just opens VSCode in your current directory. Once VSCode is opened and you see the correct file, you are good to move onto step 3.
+
+
 
 ## Step 3: Hello, World!
 
 Click on the file called `hello.cpp`.
+
+On command line create an executable file
+```
+g++ hello.cpp -o hello
+```
+Now, run your new program!
+
+```
+./hello
+```
 
 

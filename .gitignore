@@ -1,0 +1,4 @@
+# Ignore any executables 
+*.exe
+# Don't push your local vscode json settings
+.vscode
