@@ -66,4 +66,75 @@ Now, run your new program!
 ./hello
 ```
 
+## Step 4: Challenge
 
+Let's start by creating a new branch. This allows you to make changes on difficult code while also keeping your main brnch of code in tact until you want to merge the two.
+
+```
+git checkout -b <branch_name>
+```
+Once you've switched to your new branch, open the folder called `class_challenge`.
+
+### Challenge
+
+Your challenge is to create an animal class that takes 3 important features: `type_`, `name_`, and `age_`. Functions descriptions are prewritten and can be found in `Animal.h`. Here are a few things to consider:
+
+- Make sure all of your class variables are private! This means that you WILL have to create getter methods to have main.cpp run correctly.
+
+- You only need to change the code in `Animal.h` and `Animal.cpp`. (Anywhere that says "Your code here")
+
+
+You can compile and run your code by typing the following into the terminal:
+
+```
+g++ -o main Animal.h Animal.cpp main.cpp
+./main
+```
+
+The output should look like this: 
+
+```
+Animal Type: Dog
+Animal Name: Barry
+Animal Age: 3
+Happy birthday, Barry!
+Animal Age: 4
+```
+
+The solution can be found in the `class_challenge_solution` folder, but please try not to use it! You can do this without the solution code.
+
+### Pushing to GitHub
+
+Check which files you've changed.
+
+```
+git status
+```
+
+Add the files to be tracked/committed. If everything looks good from the status, add everything. 
+
+Note that you can also add individual files you've changed as well.
+
+```
+git add -A
+```
+
+Commit your changes
+
+```
+git commit -m "Your message here"
+```
+
+Push your changes from this branch up to GitHub to be reviewed!
+
+```
+git push --set-upstream origin <branch_name>
+```
+
+### GitHub Pull Request
+
+Create a pull request on GitHub and have us listed as reviewers.
+
+Merge your code into the master branch once we have reviewed your code!
+
+After this is done, make sure to pull the newest changes back to your local computer.
