@@ -137,4 +137,26 @@ Create a pull request on GitHub and have us listed as reviewers.
 
 Merge your code into the master branch once we have reviewed your code!
 
-After this is done, make sure to pull the newest changes back to your local computer.
+After this is done, make sure to delete your old branch and pull the newest changes back to your local computer.
+
+Get back to the main/master branch. This is commonly called either main or master, so if master doesn't work, try main.
+
+```
+git checkout master
+```
+
+Pull changes from the merge you just completed.
+
+```
+git pull origin master
+```
+
+Delete your old branch.
+
+```
+git branch -d <branch_name>
+```
+
+Congratulations! You've just completed the avionics software bootcamp!
+
+
